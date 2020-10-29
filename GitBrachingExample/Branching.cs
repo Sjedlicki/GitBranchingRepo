@@ -20,5 +20,10 @@ namespace GitBrachingExample
             BranchName = branchName;
             Something = something;
         }
+
+        public void Method()
+        {
+            Console.WriteLine("This doesn't do anything");
+        }
     }
 }

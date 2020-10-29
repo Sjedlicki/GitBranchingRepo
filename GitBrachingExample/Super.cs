@@ -21,6 +21,7 @@ namespace GitBrachingExample
         public void PrintInfo()
         {
             Console.WriteLine("This is a SUPER class");
+            Console.WriteLine("The Super Duper class");
         }
     }
 }
