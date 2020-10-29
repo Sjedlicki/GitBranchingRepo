@@ -8,14 +8,17 @@ namespace GitBrachingExample
     {
         public string BranchName { get; set; }
 
+        public string Something { get; set; }
+
         public Branching()
         {
 
         }
 
-        public Branching(string branchName)
+        public Branching(string branchName, string something)
         {
             BranchName = branchName;
+            Something = something;
         }
     }
 }
